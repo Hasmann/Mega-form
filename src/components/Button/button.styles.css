@@ -1,0 +1,41 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-button-default {
+  width: 180px;
+  height: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  transition: 0.5s all;
+}
+
+.custom-button-default:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.otherTypes {
+  width: 180px;
+  height: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  background-color: powderblue;
+  color: black;
+  border-radius: 3px;
+  transition: 0.5s all;
+}
+.otherTypes:hover {
+  background-color: whitesmoke;
+  color: powderblue;
+  cursor: pointer;
+  border: 1px solid black;
+}
